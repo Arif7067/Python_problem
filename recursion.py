@@ -1,3 +1,7 @@
+# Given an unsorted array arr[] of size N.
+# Rotate the array to the left (counter-clockwise direction) by D steps, where D is a positive integer. 
+
+
 class Solution:
     #Function to rotate an array by d elements in counter-clockwise direction. 
     def rotateArr(self,A,D,N):
