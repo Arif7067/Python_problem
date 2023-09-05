@@ -1,3 +1,12 @@
+# Extent tree class built in so that it takes name
+#  and designation in data part of TreeNode class. Now extend print_tree 
+#  function such that it can print either name tree,
+#  designation tree or name and designation tree. As shown in tree_problem1.png
+
+
+
+
+
 class TreeNode:
     def __init__(self, data):
         self.data = data
