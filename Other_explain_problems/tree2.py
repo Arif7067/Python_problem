@@ -1,3 +1,15 @@
+# Add following methods to BinarySearchTreeNode class
+# 1. find_min(): finds minimum element in entire binary tree
+# 2. find_max(): finds maximum element in entire binary tree
+# 3. calculate_sum(): calcualtes sum of all elements
+# 4. post_order_traversal(): performs post order traversal of a binary tree
+# 5. pre_order_traversal(): perofrms pre order traversal of a binary tree
+
+
+
+
+
+
 class Binary_search_Tree:
     def __init__(self,data):
         self.data = data
@@ -93,12 +105,12 @@ def build_tree(elements):
 
 if __name__ == "__main__":
 
-    # countries = ["India","Pakistan","Germany", "USA","China","India","UK","USA"]
-    # country_tree = build_tree(countries)
+    countries = ["India","Pakistan","Germany", "USA","China","India","UK","USA"]
+    country_tree = build_tree(countries)
 
-    # print(country_tree.inorder_elements())
-    # print("UK is in the list? ", country_tree.search("UK"))
-    # print("Sweden is in the list? ", country_tree.search("Sweden"))
+    print(country_tree.inorder_elements())
+    print("UK is in the list? ", country_tree.search("UK"))
+    print("Sweden is in the list? ", country_tree.search("Sweden"))
 
     numbers = [15,12,27,88,20,14,7,23]
     root = build_tree(numbers)
