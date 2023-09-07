@@ -101,18 +101,8 @@ def build_tree(elements):
 
 
 if __name__ == "__main__":
-
-    # countries = ["India","Pakistan","Germany", "USA","China","India","UK","USA"]
-    # country_tree = build_tree(countries)
-
-    # print(country_tree.inorder_elements())
-    # print("UK is in the list? ", country_tree.search("UK"))
-    # print("Sweden is in the list? ", country_tree.search("Sweden"))
-
     numbers = [15,12,27,88,20,14,7,23]
     root = build_tree(numbers)
-    # print(root.inorder_elements())
-    # print(root.search(0))
     root.delete(20)
     print(root.inorder_elements())
 
